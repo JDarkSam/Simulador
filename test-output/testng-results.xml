@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="184010" started-at="2018-04-15T07:59:18Z" finished-at="2018-04-15T08:02:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="184010" started-at="2018-04-15T07:59:18Z" finished-at="2018-04-15T08:02:22Z">
+      <class name="com.simulador.testCases.Simulador">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.simulador.testCases.Simulador@1e66f1f5]" name="setUp" is-config="true" duration-ms="45019" started-at="2018-04-15T07:59:18Z" finished-at="2018-04-15T08:00:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickRegister()[pri:0, instance:com.simulador.testCases.Simulador@1e66f1f5]" name="clickRegister" is-config="true" duration-ms="4393" started-at="2018-04-15T08:00:03Z" finished-at="2018-04-15T08:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegister -->
+        <test-method status="PASS" signature="infoSimulacionConsumo([Ljava.lang.String;)[pri:0, instance:com.simulador.testCases.Simulador@1e66f1f5]" name="infoSimulacionConsumo" duration-ms="46031" started-at="2018-04-15T08:00:08Z" data-provider="DatosSimulacionConsumo" finished-at="2018-04-15T08:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@11b377c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoSimulacionConsumo -->
+        <test-method status="PASS" signature="clickRegister()[pri:0, instance:com.simulador.testCases.Simulador@1e66f1f5]" name="clickRegister" is-config="true" duration-ms="7797" started-at="2018-04-15T08:00:54Z" finished-at="2018-04-15T08:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegister -->
+        <test-method status="PASS" signature="infoSimulacionInmobiliaria([Ljava.lang.String;)[pri:0, instance:com.simulador.testCases.Simulador@1e66f1f5]" name="infoSimulacionInmobiliaria" duration-ms="77863" started-at="2018-04-15T08:01:01Z" data-provider="DatosSimulacionInmobiliaria" finished-at="2018-04-15T08:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7bca6fac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoSimulacionInmobiliaria -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.simulador.testCases.Simulador@1e66f1f5]" name="tearDown" is-config="true" duration-ms="2361" started-at="2018-04-15T08:02:19Z" finished-at="2018-04-15T08:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simulador.testCases.Simulador -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
